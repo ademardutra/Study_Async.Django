@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block 'cabecalho' %}
+    <link rel="stylesheet" href="{% static 'usuarios/css/cadastro.css' %}">
+{% endblock %}
+
+{% block 'conteudo' %}
+    <div class="bg1">
+        <p>     
+        <br>  
+        <center> Seja bem vindo ao Stydy.Async! </center>
+        <center> <img src="{% static 'usuarios/img/logo.png'%}"> </center>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="center-div">
+           <a href="{% url 'cadastro'%}" type="button" class="btn-home"> Cadastro </a>
+           <br>
+           <a href="{% url 'login'%}" type="button" class="btn-home"> Login </a>
+        </div>   
+    </div>    
+{% endblock %}    
