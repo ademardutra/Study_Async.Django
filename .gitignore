@@ -1,0 +1,9 @@
+# .gitigno
+
+# Ambient Virtual
+venv/
+
+#sqlite3
+
+study_async/db.sqlite3
+
