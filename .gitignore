@@ -1,6 +1,7 @@
 # .gitigno
 
 # Ambient Virtual
+.venv/
 venv/
 
 #sqlite3
