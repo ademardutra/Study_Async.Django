@@ -3,6 +3,7 @@
 # Ambient Virtual
 .venv/
 venv/
+study_async/venv
 
 #sqlite3
 

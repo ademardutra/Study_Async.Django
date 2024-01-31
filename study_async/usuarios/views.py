@@ -49,7 +49,7 @@ def logar(request):
             messages.add_message(request, constants.SUCCESS, 'Logado!')
             return redirect('/flashcard/novo_flashcard')
         else:
-            messages.add_message(request, constants.ERROR, 'Usuário ou senha invalidos')
+            messages.add_message(request, constants.ERROR, 'Usuário ou senha inválidos')
             return redirect('/usuarios/logar')
 
 def logout(request):
