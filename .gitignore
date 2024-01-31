@@ -3,9 +3,11 @@
 # Ambient Virtual
 .venv/
 venv/
-study_async/venv
+/study_async/venv
+/.study_async/venv
+
 
 #sqlite3
-
-study_async/db.sqlite3
+/study_async/db.sqlite3
+/.study_async/db.sqlite3
 
