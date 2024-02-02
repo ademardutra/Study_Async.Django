@@ -36,4 +36,3 @@ def novo_flashcard(request):
         messages.add_message(request, constants.SUCCESS, 'Flashcard cadastrado com sucesso')
         return redirect('/flashcard/novo_flashcard/')
     
-    #51:52 aula2...
